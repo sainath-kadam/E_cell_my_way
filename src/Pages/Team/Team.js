@@ -7,7 +7,7 @@ const Team = () => {
     <div className='container' style={{ backgroundColor: 'black' }}>
       <div className="home-section-two">
         <div className="border-container atrang-sec">
-          <h1 className="section-heading">E-Cell</h1>
+          <h1 className="section-heading"></h1>
           <div className="council-card--container">
             {TeamData.map((ele) => {
               return (
