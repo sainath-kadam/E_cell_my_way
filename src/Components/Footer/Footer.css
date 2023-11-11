@@ -3,11 +3,14 @@
   bottom: 0;
   left: 0;
   width: 100%;
-  background-color: #000; /* Set background color to black */
+  background-color:#1a1a1a; /* Set background color to black */
   padding: 10px; /* Add padding for better visibility, adjust as needed */
   text-align: center;
   color: #fff; /* Set text color to white */
   white-space: nowrap; /* Prevent text from wrapping to the next line */
+  backdrop-filter: blur(10px);
+  box-shadow: 0 4px 8px 0 rgb(105, 14, 14);
+  background: linear-gradient(white);
   
 }
 .copyrights,

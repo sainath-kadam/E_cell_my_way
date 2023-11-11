@@ -3,7 +3,7 @@ import './Associates.css'
 
 function Associates() {
   return (
-    <div>
+    <div className='container' style={{ backgroundColor: 'black' }}>
 Associates
     </div>
   )

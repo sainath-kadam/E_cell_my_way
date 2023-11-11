@@ -28,7 +28,7 @@
 }
 
 .icon-buttons a:hover {
-    color: #ec1919;
+    color: #00ce9e;
     transform: translateY(-30%); /* Added vertical translation on hover */
 }
 

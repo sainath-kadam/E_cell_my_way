@@ -1,129 +1,108 @@
-.navbar {
-  display: flex;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  /* z-index: 100;
-  color: white; */
-  justify-content: space-between;
-  align-items: center;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 8px 0 rgb(105, 14, 14);
-  font-size: medium;
-
-}
-.brand-title {
-  margin-left: 1.5rem;
-  /* opacity: 80%; */
-}
-
-.navbar-links {
-  height: 100%;
-}
-
-.navbar-links ul {
-  display: flex;
+body {
   margin: 0;
   padding: 0;
+  font-family: 'Arial', sans-serif; /* Update the font family as needed */
 }
 
-.navbar-links li {
-  list-style: none;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: 500;
-  transition: all 0.5s ease;
-  cursor: pointer;
-  opacity: 60%;
-}
-
-.navbar-links li a {
-  display: block;
-  text-decoration: none;
-
-  padding: 1rem;
-}
-
-.navbar-links li:hover {
-  transform: scale(1.1);
-}
-
-.toggle-button {
-  position: absolute;
-  top: 0.75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
+/* Navbar styles */
+.navbar {
+  display: flex;
   justify-content: space-between;
-  width: 30px;
-  height: 21px;
-}
-
-.e_cell-logo {
-  width: 40px;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #1a1a1a; /* Set your desired background color */
+  /* backdrop-filter: blur(10px); */
+  box-shadow: 0 4px 8px 0 rgb(105, 14, 14);
+  /* background: linear-gradient(white); */
   position: relative;
 }
 
-.toggle-button .bar {
-  height: 3px;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-}
-
-.social-media ul {
+.brand-title {
   display: flex;
-  justify-content: center;
+  align-items: center;
+}
+
+.e_cell-logo {
+  width: 50px; /* Adjust the size of your logo as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.toggle-button {
+  display: none; /* Hide the toggle button on larger screens */
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #fff; /* Set the color of the toggle bars to white */
+  margin: 5px 0;
+  transition: 0.4s;
+}
+
+.navbar-links {
+  display: flex;
+}
+
+.navbar-links ul {
   list-style: none;
-  padding: 0;
+  display: flex;
   margin: 0;
+  padding: 0;
+  backdrop-filter: blur(5px); /* Add a blur effect to the navbar */
 }
 
-.social-media li {
-  margin-left: 1rem;
+.navbar-links li {
+  margin: 0 15px;
 }
 
-.social-media li a {
-
-  font-size: 1.2rem;
+.navbar-links a {
+  text-decoration: none;
+  color: #fff; /* Set the color of the text to white */
+  font-size: 18px; /* Increased font size for the links */
+  font-weight: 500;
+  transition: color 0.3s;
 }
 
-@media (max-width: 810px) {
-  .e_cell-logo {
-    position: relative;
-    right: 30%;
-  }
+.navbar-links a:hover {
+  color: #00ce9e; /* Set the color of the text on hover */
+}
 
-  .navbar {
-    flex-direction: column;
-    align-items: center;
-    padding: 10px 0;
-  }
-
+/* Media query for smaller screens */
+@media (max-width: 768px) {
   .toggle-button {
-    display: flex;
-    top: 25px;
+    display: block; /* Show the toggle button on smaller screens */
   }
 
   .navbar-links {
     display: none;
-    width: 100%;
-  }
-
-  .navbar-links ul {
-    width: 100%;
     flex-direction: column;
-  }
-
-  .navbar-links ul li {
-    text-align: center;
-  }
-
-  .navbar-links ul li a {
-    padding: 0.5rem 1rem;
+    position: absolute;
+    top: 70px; /* Adjust the top position as needed */
+    left: 0;
+    width: 100%;
+    background-color: #1a1a1a; /* Set your desired background color */
+    backdrop-filter: blur(5px); /* Add a blur effect to the dropdown menu */
   }
 
   .navbar-links.active {
     display: flex;
   }
+
+  .navbar-links ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+  }
+}
+
+/* Blur effect on the rest of the page */
+body.blur {
+  filter: blur(5px); /* Adjust the blur intensity as needed */
+  transition: filter 0.3s ease-in-out;
 }

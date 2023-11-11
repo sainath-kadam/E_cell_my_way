@@ -4,7 +4,7 @@ import TeamData from "../../Assets/data/TeamData";
 const Team = () => {
   return (
 
-    <div>
+    <div className='container' style={{ backgroundColor: 'black' }}>
       <div className="home-section-two">
         <div className="border-container atrang-sec">
           <h1 className="section-heading">E-Cell</h1>

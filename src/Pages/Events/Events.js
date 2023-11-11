@@ -6,7 +6,7 @@ import { EventData } from '../../Assets/data/EventData.js';
 
 function Events() {
   return (
-    <div>
+    <div className='container' style={{ backgroundColor: 'black' }}>
       <div className="event-page--container">
 
         <h1 className="event-heading">
