@@ -1,28 +1,11 @@
 
-.event-card--conatiner {
+.council-card--container {
   display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  position: relative;
-  
-}
-.event-page--container {
-  padding-top: 100px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  overflow: hidden;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+  justify-content: center;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
-
-h1 {
-  color: white;
-  font-family: Chakra Petch;
-  letter-spacing: 2px;
+@media (max-width: 800px) {
+  .council-card--container {
+    flex-direction: column;
+  }
 }

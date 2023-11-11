@@ -1,19 +1,12 @@
-import Logo1 from "../images/logo.png";
-import Logo2 from "../images/logo1.png";
-
-
-export const EventData = [
+import sainath from "../../Assets/images/Team/sainath.png";
+const EventData = [
     {
-      key: "0",
-      title: "title 1",
-      description: "description 1",
-      image: Logo1,
+      key: "1",
+      img: sainath,
+      name: "Sainath kadam",
+      about:
+      "I'm Sainath Kadam, with a 1.5-year commitment to the E Cell. Through workshops, events, and discussions, I've driven our institute's tech scene forward. Beyond this, my passion lies in engaging with diverse communities, recognizing that dialogues are the seeds of growth. Notably, I'm deeply intrigued by the prospect of tackling real-time challenges. My journey is marked by a persistent pursuit of improvement and an unwavering dedication to making a positive impact.",
+      tag: "sainath ",
     },
-
-    {
-        key: "1",
-        title: "title 2",
-        description:"description 2",
-        image: Logo2,
-      }
-]
+  ];
+  export default EventData

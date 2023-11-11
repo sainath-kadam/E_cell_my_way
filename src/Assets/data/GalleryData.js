@@ -1,160 +1,27 @@
-import React from 'react';
+import Logo1 from "../images/logo.png";
+import Logo2 from "../images/logo1.png";
 
 
- export const GalleryData = [
+
+export const GalleryData = [
   {
-    title: 'Nature',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/id/1224867021/photo/different-creative-idea-light-bulb.jpg?s=612x612&w=0&k=20&c=guWN3loVCZRcjttgcLtRlyZGH2WEoAmPjGhDXIqbfEY=',
-        caption: 'Beautiful Nature',
-      },
-      // Add more images for the 'Nature' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/id/1224867021/photo/different-creative-idea-light-bulb.jpg?s=612x612&w=0&k=20&c=guWN3loVCZRcjttgcLtRlyZGH2WEoAmPjGhDXIqbfEY=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
+    key: "4",
+    title: "hackathon",
+    descrip:
+      "Hackathon or Codefest is a social coding event that brings programmers and other interested people together for a short period of time to collaborate and build a new software program.",
+    image: Logo1,
+   
+    
   },
   {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/id/1224867021/photo/different-creative-idea-light-bulb.jpg?s=612x612&w=0&k=20&c=guWN3loVCZRcjttgcLtRlyZGH2WEoAmPjGhDXIqbfEY=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
+    key: "3",
+    title: "pitch your startup",
+    descrip:
+      "Pitching is an opportunity to introduce your business ideas in a limited amount of time. Learning how to pitch is one of the important skills a founder needs to develop.",
+    image: Logo1,
+   
+   
   },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-   {
-    title: 'City',
-    images: [
-      {
-        url:
-          'https://media.istockphoto.com/photos/cityscape-of-tokyo-japan-picture-id516933556?k=20&m=516933556&s=612x612&w=0&h=-gufbFw7vm3DxrDbICyVQDDoUQGi2DZ9VVEuL8Yq_rA=',
-        caption: 'City Skyline',
-      },
-      // Add more images for the 'City' category
-    ],
-  },
-  // Add more categories with images
+  
+  
 ];

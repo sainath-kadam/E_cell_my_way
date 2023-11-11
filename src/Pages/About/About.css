@@ -90,6 +90,6 @@
 
     .about-us-image.left:nth-child(2) {
         order: 4;
-        animation: bounce 2s infinite alternate; /* Bounce animation */
+        animation: bounce 1s infinite alternate; /* Bounce animation */
     }
 }
