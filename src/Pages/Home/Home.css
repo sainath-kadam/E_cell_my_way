@@ -1,0 +1,18 @@
+/* Home.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh; 
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 600px) {
+  .container {
+    background-size:contain; /* Adjust background size for smaller screens */
+  }
+}

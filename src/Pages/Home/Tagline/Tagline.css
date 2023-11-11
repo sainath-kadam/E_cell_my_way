@@ -1,0 +1,139 @@
+/* Home.css */
+
+/* Base styles */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 4.375rem; 
+    /* Adjusted margin using rem */
+  }
+  
+  .tagline-container {
+    margin-bottom: 1.25rem; /* Adjusted margin using rem */
+  }
+  
+  .name {
+    font-size: 6rem; /* Adjusted font size using rem */
+    font-family: Roboto;
+    font-weight: bold;
+    margin-top: 0.625rem; /* Adjusted margin using rem */
+  }
+  
+  .name::before,
+  .name::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 0;
+    height: 0.125rem; /* Adjusted border height using rem */
+    background-color: #ba0000;
+    transform-origin: center;
+    transition: width 1s;
+  }
+  
+  .name:hover::before {
+    right: 0;
+    width: 100%;
+  }
+  
+  .e-cell-name {
+    font-family: Raleway;
+    color: rgb(244, 18, 18);
+  }
+  
+  .college-name {
+    font-family: Chakra Petch;
+    color: white;
+    margin-left: 0.625rem; /* Adjusted margin using rem */
+  }
+  
+  .tagline {
+    color: #db2727;
+    font-family: Montserrat;
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+  
+  .button {
+    padding: 1rem 2rem;
+    width: 10%;
+    margin-top: 1rem;
+    background-color: rgb(244, 18, 18);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  
+  /* Media query for desktop */
+  @media (min-width: 768px) {
+    .home-container {
+      margin-top: 12rem; 
+      margin-left: 0%;
+      /* Adjusted margin for desktop using rem */
+    }
+  
+    .name {
+      font-size: 4rem; /* Adjusted font size for desktop using rem */
+      margin-top: 1rem; /* Adjusted margin for desktop using rem */
+    }
+  
+    .name::before,
+    .name::after {
+      height: 0.25rem; /* Adjusted border height for desktop using rem */
+    }
+  
+    .college-name {
+      margin-left: 1rem; /* Adjusted margin for desktop using rem */
+    }
+  
+    .tagline {
+      font-size: 2rem; /* Adjusted font size for desktop using rem */
+    }
+  
+    .button {
+      width: 8rem; /* Adjusted width for desktop using rem */
+      margin-top: 1.5rem; /* Adjusted margin for desktop using rem */
+      font-size: 1.25rem; /* Adjusted font size for desktop using rem */
+    }
+  }
+  
+  /* Media query for mobile */
+  @media (max-width: 767px) {
+
+    .home-container {
+
+      margin-top: 12rem; 
+      margin-left: 20%;/* Adjusted margin for mobile using rem */
+    }
+  
+    .name {
+      font-size: 2.5rem; /* Adjusted font size for mobile using rem */
+      margin-top: 0.5rem; /* Adjusted margin for mobile using rem */
+    }
+  
+    .name::before,
+    .name::after {
+      height: 0.1rem; /* Adjusted border height for mobile using rem */
+    }
+  
+    .college-name {
+      margin-left: 0.5rem; /* Adjusted margin for mobile using rem */
+    }
+  
+    .tagline {
+      font-size: 1.25rem; /* Adjusted font size for mobile using rem */
+    }
+  
+    .button {
+      width: 12rem; /* Adjusted width for mobile using rem */
+      margin-top: 1rem; /* Adjusted margin for mobile using rem */
+      font-size: 1rem; /* Adjusted font size for mobile using rem */
+    }
+  }
+  

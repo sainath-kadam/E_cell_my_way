@@ -1,0 +1,28 @@
+.event-card--conatiner {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  position: relative;
+}
+.event-page--container {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color:black;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+h1 {
+  color: rgb(244, 18, 18);
+  font-family: Chakra Petch;
+  letter-spacing: 2px;
+}

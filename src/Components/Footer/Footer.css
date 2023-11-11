@@ -1,0 +1,35 @@
+/* Footer.css */
+
+.footer {
+  background-color:black;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-top: 2px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 -4px 8px 0 rgb(105, 14, 14);
+}
+
+.copyrights,
+.developer {
+  margin-bottom: 0.5rem;
+}
+
+.heart-footer {
+  width:40px; /* Adjust as needed */
+  height: auto;
+  margin-top: 1rem;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) {
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .heart-footer {
+    margin-top: 0;
+  }
+}
