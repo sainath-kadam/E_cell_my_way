@@ -8,37 +8,45 @@
     padding: 50px;
     text-align: center;
     color: white;
-  }
-  
-  .about-us-content {
+}
+
+.about-us-content {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
-  }
-  
-  .about-us-image img {
+}
+
+.about-us-image img {
     width: 100%;
     height: auto;
     border-radius: 10px;
-    /* margin-right: 2%; */
-    
-  }
-  
-  .about-us-info h2 {
+    animation: bounce 1s infinite alternate; /* Bounce animation */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.about-us-info h2 {
     font-family: "Bebas Neue", cursive;
     font-size: 36px;
     margin-bottom: 20px;
-  }
-  
-  .about-us-info p {
+}
+
+.about-us-info p {
     font-size: 16px;
     line-height: 1.5;
     margin-bottom: 20px;
     margin-right: 5%;
-  }
-  
-  .about-us-info a {
+}
+
+.about-us-info a {
     display: inline-block;
     padding: 10px 20px;
     background-color: #db2727; /* Orange color */
@@ -46,41 +54,42 @@
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
-  }
-  
-  .about-us-info a:hover {
+}
+
+.about-us-info a:hover {
     background-color: #e07b00; /* Darker orange on hover */
-  }
-  
-  @media screen and (min-width: 768px) {
+}
+
+@media screen and (min-width: 768px) {
     .about-us-content {
-      flex-direction: row;
-      align-items: center;
-      text-align: center;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
     }
-  
+
     .about-us-image,
     .about-us-info {
-      width: 50%;
+        width: 50%;
     }
-  
+
     .about-us-info.left {
-      text-align: left;
-      order: 1;
-      margin: 3%;
+        text-align: left;
+        order: 1;
+        margin: 3%;
     }
-  
+
     .about-us-image.left {
-      order: 2;
+        order: 2;
+        animation: bounce 1s infinite alternate; /* Bounce animation */
     }
-  
+
     .about-us-info.right {
-      text-align: right;
-      order: 3;
+        text-align: right;
+        order: 3;
     }
-  
+
     .about-us-image.left:nth-child(2) {
-      order: 4;
+        order: 4;
+        animation: bounce 2s infinite alternate; /* Bounce animation */
     }
-  }
-  
+}
