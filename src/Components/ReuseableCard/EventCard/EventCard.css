@@ -38,9 +38,10 @@
 .image-main {
   object-fit: cover;
 }
-.sainath {
-  background-image: url("../../../Assets/images/Team/sainath.png");
+.E1 {
+  background-image: url("../../../Assets/images/Events/E1.JPG");
 }
+
 
 .team-card-hr {
   border: 1px solid #ffffff;

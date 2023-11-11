@@ -1,13 +1,21 @@
-
-
+.container{
+  margin-bottom: 15%;
+}
 .council-card--container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+.council-card {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  margin: 10px; /* Adjust the margin as needed */
+}
+@media (max-width: 800px) {
+  .council-card--container {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30%;
+    
   }
-  
-  @media (max-width: 800px) {
-    .council-card--container {
-      flex-direction: column;
-    }
-  }
-  
+}

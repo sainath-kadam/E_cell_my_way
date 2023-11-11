@@ -44,7 +44,7 @@
   }
   
   .record-desc h1 {
-    color: #000;
+    color: white;
     margin: 5px 0;
     font-size: 1.3em;
     font-weight: 700;
@@ -54,7 +54,7 @@
   .record-desc p {
     font-size: 0.75em;
     line-height: 1.4em;
-    color: #666;
+    color: white;
   }
   
   #record1 {

@@ -1,5 +1,4 @@
 
-
 .box {
   margin: 40px 50px 0 50px;
 }
@@ -38,9 +37,28 @@
 .image-main {
   object-fit: cover;
 }
+.Suman {
+  background-image: url("../../../Assets/images/Team/Suman.png");
+}
 .sainath {
   background-image: url("../../../Assets/images/Team/sainath.png");
 }
+.keshav {
+  background-image: url("../../../Assets/images/Team/keshav.jpeg");
+}
+.Vaibhav {
+  background-image: url("../../../Assets/images/Team/Vaibhav.jpeg");
+}
+.Bhupesh {
+  background-image: url("../../../Assets/images/Team/Bhupesh.jpg");
+}
+.rishab {
+  background-image: url("../../../Assets/images/Team/rishab.jpg");
+}
+.Yash {
+  background-image: url("../../../Assets/images/Team/Yash.jpg");
+}
+
 
 .team-card-hr {
   border: 1px solid #ffffff;

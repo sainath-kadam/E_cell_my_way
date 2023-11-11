@@ -9,7 +9,7 @@
   color: #fff; /* Set text color to white */
   white-space: nowrap; /* Prevent text from wrapping to the next line */
   backdrop-filter: blur(10px);
-  box-shadow: 0 4px 8px 0 rgb(105, 14, 14);
+  box-shadow: 0 -4px 8px 0 rgba(105, 14, 14, 0.5);
   background: linear-gradient(white);
   
 }

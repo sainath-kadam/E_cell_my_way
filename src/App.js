@@ -9,9 +9,6 @@ import Gallery from './Pages/Gallery/Gallery';
 import Team from './Pages/Team/Team';
 import Navbar from './Components/Navbar/Navbar';
 import Footer from './Components/Footer/Footer';
-
-
-
 function App() {
   return (
     <div className="App">
