@@ -3,8 +3,8 @@
   position: fixed;
   top: 0;
   width: 100%;
-  z-index: 100;
-  color: white;
+  /* z-index: 100;
+  color: white; */
   justify-content: space-between;
   align-items: center;
   backdrop-filter: blur(10px);
@@ -14,7 +14,7 @@
 }
 .brand-title {
   margin-left: 1.5rem;
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 .navbar-links {

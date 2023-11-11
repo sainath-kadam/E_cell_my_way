@@ -9,8 +9,6 @@ function Events() {
     <div>
       <div className="event-page--container">
 
-        {/* <Navbar /> */}
-
         <h1 className="event-heading">
           EVENTS
         </h1>
@@ -25,7 +23,6 @@ function Events() {
             );
           })}
         </div>
-        {/* <Footer/> */}
       </div>
     </div>
   )

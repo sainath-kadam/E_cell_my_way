@@ -10,9 +10,7 @@
   flex-direction: column;
   align-items: center;
   height: 100vh;
-  background-color:black;
   overflow: hidden;
-  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
@@ -22,7 +20,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
 
 h1 {
-  color: rgb(244, 18, 18);
+  color: white;
   font-family: Chakra Petch;
   letter-spacing: 2px;
 }

@@ -1,12 +1,14 @@
 .record {
   position: relative;
-  width: 330px;
-  height: 350px;
+  width: 300px;
+  height: 300px;
   overflow: hidden;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  background-color: #fff;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  border: 2px solid #fff; /* Add a white border */
   transition: box-shadow 300ms;
   margin: 30px 20px;
+  background-origin: padding-box;
+  border-radius: 2%;
 }
 
 .record-arrow {
@@ -46,7 +48,7 @@
 }
 
 .record-desc h1 {
-  color: #000;
+  color:white;
   margin: 5px 0;
   font-size: 1.3em;
   font-weight: 700;
@@ -56,7 +58,7 @@
 .record-desc p {
   font-size: 0.75em;
   line-height: 1.4em;
-  color: #120202;
+  color: white;
 }
 
 #record1 {

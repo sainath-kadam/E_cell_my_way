@@ -1,35 +1,35 @@
-/* Footer.css */
-
 .footer {
-  background-color:black;
-  color: white;
-  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #000; /* Set background color to black */
+  padding: 10px; /* Add padding for better visibility, adjust as needed */
   text-align: center;
-  border-top: 2px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 -4px 8px 0 rgb(105, 14, 14);
+  color: #fff; /* Set text color to white */
+  white-space: nowrap; /* Prevent text from wrapping to the next line */
+  
 }
-
 .copyrights,
 .developer {
-  margin-bottom: 0.5rem;
+  display: inline-block; /* Make each section inline-block to keep them on the same line */
+  margin-bottom: 5px; /* Adjust the margin between the copyright and developer sections */
 }
 
 .heart-footer {
-  width:40px; /* Adjust as needed */
-  height: auto;
-  margin-top: 1rem;
+  width: 20px; /* Adjust the size of the heart image */
+  height: 20px; /* Adjust the size of the heart image */
+  margin: 0 5px; /* Add some space between the heart image and the text */
 }
 
-/* Media query for larger screens */
-@media (min-width: 768px) {
+@media only screen and (max-width: 600px) {
+  /* Add responsive styles for smaller screens */
   .footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 5px; /* Adjust padding for smaller screens */
   }
 
-  .heart-footer {
-    margin-top: 0;
+  .copyrights,
+  .developer {
+    display: block; /* Change to block for mobile to stack the sections */
   }
 }
